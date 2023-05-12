@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*::before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	
+	font-size: 100%;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+.conteiner{width:100%;height:100%;background-image:url(assets/phonGlav.png);background-repeat:no-repeat;background-position:center;background-size:cover;position:relative}.conteiner__wrapper{width:100%;height:100%;background-color:rgba(44,44,44,.7803921569);display:flex;flex-direction:row;justify-content:space-between;padding:0px 5px}.conteiner__wrapper .wrapper__text{width:100%}.conteiner__wrapper .wrapper__text h1{font-family:"Montserrat";font-style:normal;font-weight:400;font-size:56px;color:#fff;line-height:70px;padding:30px 0px}.conteiner__wrapper .wrapper__text p{width:500px;font-family:"Montserrat";font-style:normal;font-weight:400;font-size:22px;color:#fff;line-height:26px}.conteiner__wrapper .text1{padding:0px 0px 40px 0px}.conteiner__wrapper .wrapper__girl{display:flex;flex-direction:column;justify-content:center;align-items:center}.conteiner__wrapper .wrapper__girl .girl-ring{width:110px;height:110px;border-radius:100px;background-color:#000;transform:scale(2, 0.5);box-shadow:0 0 10px #fff;margin-top:30px;animation:boll 4s linear forwards}@keyframes boll{0%{width:10px;height:10px}60%{width:110px;height:110px}}@keyframes up{0%{position:relative;bottom:-1000px;opacity:0}100%{position:relative;bottom:0px;opacity:1}}.conteiner__wrapper .wrapper__girl img{animation:up 6s linear forwards}.conteiner__wrapper .wrapper__phone img{width:700px}.conteiner__wrapper .wrapper__fotter{position:absolute;bottom:10px;left:10px;line-height:100px}.conteiner__wrapper .wrapper__fotter h2{color:#fff;font-family:"Montserrat";font-style:normal;font-weight:900;font-size:44.7911px}@media(max-width: 400px){.conteiner{width:390px;height:1800px;position:relative}.conteiner__wrapper{background-color:#181818;display:flex;flex-direction:column}.conteiner__wrapper .wrapper__text{max-width:390px}.conteiner__wrapper .wrapper__text h1{font-family:"Montserrat";font-style:normal;font-weight:400;font-size:31px;color:#fff}.conteiner__wrapper .wrapper__text p{width:390px;font-family:"Montserrat";font-style:normal;font-weight:400;font-size:17px;color:#fff;line-height:26px}.conteiner__wrapper .wrapper__girl{display:flex;flex-direction:column;margin-bottom:400px}.conteiner__wrapper .wrapper__girl .girl-ring{width:110px;height:110px;border-radius:100px;background-color:#000;transform:scale(2, 0.5);box-shadow:0 0 10px #fff;animation:boll 4s linear forwards}@keyframes boll{0%{width:10px;height:10px}60%{width:110px;height:110px}}@keyframes up{0%{position:relative;bottom:-1000px;opacity:-1}100%{position:relative;bottom:0px;opacity:1}}.conteiner__wrapper .wrapper__girl img{width:190px;max-width:100%;-o-object-fit:cover;object-fit:cover;animation:up 6s linear forwards}.conteiner__wrapper .wrapper__phone img{display:flex;justify-content:center;align-items:center;width:400px;max-width:100%;-o-object-fit:cover;object-fit:cover;position:relative;bottom:300px;left:20px}.conteiner__wrapper .wrapper__fotter{width:100%}.conteiner__wrapper .wrapper__fotter h2{color:#fff;font-family:"Montserrat";font-style:normal;font-weight:300;font-size:21px}}
